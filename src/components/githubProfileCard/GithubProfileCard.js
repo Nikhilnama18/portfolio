@@ -7,7 +7,7 @@ import Contact from "../../containers/contact/Contact";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
-  prof.isHireable="Yes";
+  prof.isHireable = "Yes";
   if (prof.isHireable) {
     prof.hireable = "Yes";
   } else {
