@@ -1,7 +1,7 @@
 import React from "react";
 import "./GithubProfileCard.scss";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo} from "../../portfolio";
+// import SocialMedia from "../../components/socialMedia/SocialMedia";
+// import {contactInfo} from "../../portfolio";
 // import emoji from "react-easy-emoji";
 import Contact from "../../containers/contact/Contact";
 import {Fade} from "react-reveal";
@@ -16,7 +16,7 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title"></h1>
+        <h1 className="prof-title">H1</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
@@ -24,7 +24,7 @@ export default function GithubProfileCard({prof}) {
               <Contact />
               {/* <p className="ContactNumber">{contactInfo.number}</p> */}
             </div>
-            <h2 className="bio-text"></h2>
+            <h2 className="bio-text">H2</h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
